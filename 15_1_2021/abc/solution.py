@@ -1,1 +1,10 @@
-# 
+arr=list(map(int, input().split()))
+arr.sort()
+a,b,c=arr
+s=input()
+if s == "ABC": print(a,b,c)
+if s == "ACB": print(a,c,b)
+if s == "BAC": print(b,a,c)
+if s == "BCA": print(b,c,a)
+if s == "CAB": print(c,a,b)
+if s == "CBA": print(c,b,a)
