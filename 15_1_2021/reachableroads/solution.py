@@ -1,5 +1,3 @@
-import heapq
-
 n = int(input())
 
 def dfs_visit(node, visited, adj):
