@@ -12,3 +12,6 @@ linje = input()
 
 # sådan kan man læse en liste med tekststrenge  i python (mellemrumssepererede strings)
 strings = input().split()
+
+# print noget
+print("noget")
