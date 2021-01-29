@@ -11,7 +11,6 @@ let read () =
         else arr.Append key) |> ignore
         key <- char(Console.Read())
     done
-    printfn "%A" (arr.ToString())
     arr.ToString()
 
 // read 3 numbers
